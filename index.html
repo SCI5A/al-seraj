@@ -3,20 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شركة السراج | بناء وتجهيز مصانع الأدوية المتكاملة</title>
+    <title>السراج | Al-Seraj - شركة تجهيز مصانع الأدوية والتجهيزات الصناعية</title>
     
-    <!-- SEO & Meta Tags -->
-    <meta name="description" content="شركة السراج للتجهيزات الصناعية، الوكيل الحصري المعتمد لـ Asenware و Ekingair ووكيل الشركة المصرية المتحدة و PharMatrix الأردنية في اليمن. متخصصون في بناء وتجهيز مصانع الأدوية.">
-    <meta name="keywords" content="شركة السراج، تجهيز مصانع أدوية، إنذار حريق، Asenware، Ekingair، تكييف صناعي، اليمن، صنعاء، Pharmatrix">
-    <meta property="og:title" content="شركة السراج - حلول بناء مصانع الأدوية">
-    <meta property="og:description" content="نساعد عملائنا على تحقيق رؤيتهم في بناء مصانع طبية متكاملة منذ عام 2006.">
+    <!-- SEO & Meta Tags - Arabic -->
+    <meta name="description" content="شركة السراج للتجهيزات الصناعية - متخصصون في بناء وتجهيز مصانع الأدوية المتكاملة. الوكيل الحصري لـ Asenware و Ekingair و PharMatrix. خدمات في السودان وإثيوبيا.">
+    <meta name="keywords" content="السراج, تجهيز مصانع أدوية, أنظمة إنذار حريق, Asenware, Ekingair, تكييف صناعي, السودان, إثيوبيا, Pharmatrix, لوحات كهربائية, تصميم صناعي">
+    
+    <!-- SEO & Meta Tags - English -->
+    <meta name="keywords" content="Al-Seraj, pharmaceutical factory equipment, fire alarm systems, Asenware, Ekingair, industrial air conditioning, Sudan, Ethiopia, Pharmatrix, electrical panels, industrial design, industrial equipment">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="السراج - حلول بناء مصانع الأدوية المتكاملة">
+    <meta property="og:description" content="نساعد عملائنا على تحقيق رؤيتهم في بناء مصانع طبية متكاملة منذ عام 2006. خدمات متخصصة في السودان وإثيوبيا.">
     <meta property="og:type" content="website">
-
+    <meta property="og:image" content="https://karar011.github.io/al-seraj/images/logo.jpg">
+    <meta property="og:url" content="https://karar011.github.io/al-seraj/">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="السراج - Al-Seraj Industrial Equipment">
+    <meta name="twitter:description" content="متخصصون في بناء وتجهيز مصانع الأدوية المتكاملة">
+    
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://karar011.github.io/al-seraj/">
+    
+    <!-- Language Alternate Links -->
+    <link rel="alternate" hreflang="ar" href="https://karar011.github.io/al-seraj/">
+    <link rel="alternate" hreflang="en" href="https://karar011.github.io/al-seraj/?lang=en">
+    
     <!-- Tailwind CSS & Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "شركة السراج للتجهيزات الصناعية",
+        "alternateName": "Al-Seraj Industrial Equipment",
+        "url": "https://karar011.github.io/al-seraj/",
+        "logo": "https://karar011.github.io/al-seraj/images/logo.jpg",
+        "description": "متخصصون في بناء وتجهيز مصانع الأدوية المتكاملة",
+        "foundingDate": "2006",
+        "areaServed": ["Sudan", "Ethiopia"],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+967-777-409-273",
+            "contactType": "Customer Service",
+            "email": "contact@asserag.com"
+        }
+    }
+    </script>
     
     <style>
         body { font-family: 'Tajawal', sans-serif; scroll-behavior: smooth; }
@@ -111,7 +151,7 @@
             border-radius: 50%;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-center;
             cursor: pointer;
             box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
             z-index: 999;
@@ -158,6 +198,11 @@
                 font-size: 24px;
             }
         }
+        
+        .logo-img {
+            max-width: 150px;
+            height: auto;
+        }
     </style>
 
     <script>
@@ -180,8 +225,7 @@
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-reverse space-x-3">
-                <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center text-white font-bold text-xl">S</div>
-                <span class="text-2xl font-bold text-primary">السراج</span>
+                <img src="images/logo.jpg" alt="شركة السراج - السراج للتجهيزات الصناعية" class="logo-img" title="Al-Seraj Industrial Equipment">
             </div>
             <div class="hidden md:flex space-x-reverse space-x-8 font-medium items-center">
                 <a href="#" class="hover:text-primary transition">الرئيسية</a>
@@ -327,7 +371,7 @@
     <!-- Projects Section with Gallery -->
     <section id="projects" class="py-20 bg-gray-100">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-primary mb-12 text-center">أبرز مشاريعنا</h2>
+            <h2 class="text-3xl font-bold text-primary mb-12 text-center">أبرز مشاريعنا الإقليمية</h2>
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Project 1 -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-md group hover:shadow-2xl transition">
@@ -347,28 +391,28 @@
                 <div class="bg-white rounded-xl overflow-hidden shadow-md group hover:shadow-2xl transition">
                     <div class="h-48 bg-gradient-to-br from-blue-800 to-blue-600 flex items-center justify-center text-white font-bold text-center p-4 group-hover:scale-105 transition transform">
                         <div>
-                            <div class="text-3xl mb-2">🏛️</div>
-                            <div>المجلس الأعلى للأدوية</div>
+                            <div class="text-3xl mb-2">🇸🇩</div>
+                            <div>مشاريع في السودان</div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h4 class="font-bold mb-2">الهيئة العليا للأدوية</h4>
-                        <p class="text-sm text-gray-500 mb-4">شراكة استراتيجية في التجهيزات الفنية والتقنية المتقدمة.</p>
-                        <div class="text-xs text-primary font-bold">✓ شراكة استراتيجية ✓ تقنيات متقدمة</div>
+                        <h4 class="font-bold mb-2">التوسع في السودان</h4>
+                        <p class="text-sm text-gray-500 mb-4">مشاريع متقدمة وحلول متكاملة لتجهيز مصانع الأدوية في السودان.</p>
+                        <div class="text-xs text-primary font-bold">✓ خبرة إقليمية ✓ نجاح مثبت</div>
                     </div>
                 </div>
                 <!-- Project 3 -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-md group hover:shadow-2xl transition">
                     <div class="h-48 bg-gradient-to-br from-blue-700 to-blue-500 flex items-center justify-center text-white font-bold text-center p-4 group-hover:scale-105 transition transform">
                         <div>
-                            <div class="text-3xl mb-2">🌍</div>
-                            <div>مشاريع إقليمية</div>
+                            <div class="text-3xl mb-2">🇪🇹</div>
+                            <div>مشاريع في إثيوبيا</div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h4 class="font-bold mb-2">توسع إقليمي</h4>
-                        <p class="text-sm text-gray-500 mb-4">مشاريع ناجحة في الصومال، إثيوبيا، كينيا، وتنزانيا.</p>
-                        <div class="text-xs text-primary font-bold">✓ خبرة إقليمية ✓ نجاح مثبت</div>
+                        <h4 class="font-bold mb-2">التوسع في إثيوبيا</h4>
+                        <p class="text-sm text-gray-500 mb-4">حلول متخصصة وخدمات شاملة لبناء مصانع أدوية حديثة في إثيوبيا.</p>
+                        <div class="text-xs text-primary font-bold">✓ خدمات متكاملة ✓ دعم فني</div>
                     </div>
                 </div>
             </div>
@@ -428,7 +472,7 @@
             <div class="md:w-1/2">
                 <h2 class="text-3xl font-bold text-primary mb-6">عن شركة السراج</h2>
                 <p class="text-gray-600 leading-relaxed mb-6">تأسست شركة السراج في عام 2006 كشركة خاصة متخصصة في مجال تصنيع وتجميع اللوحات الكهربائية للتوزيع والتحكم. على مر السنين، تطورنا لنصبح رواداً في بناء وتجهيز مصانع الأدوية المتكاملة.</p>
-                <p class="text-gray-600 leading-relaxed mb-6">نعمل مع أفضل الشركات العالمية لضمان تقديم حلول متطورة وموثوقة لعملائنا في اليمن والمنطقة.</p>
+                <p class="text-gray-600 leading-relaxed mb-6">نعمل مع أفضل الشركات العالمية لضمان تقديم حلول متطورة وموثوقة لعملائنا في السودان وإثيوبيا والمنطقة.</p>
                 <div class="grid grid-cols-2 gap-6">
                     <div class="p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
                         <h4 class="font-bold text-primary mb-2">🛡️ السلامة أولاً</h4>
@@ -465,7 +509,7 @@
                     </li>
                     <li class="flex items-start gap-3 hover:translate-x-2 transition">
                         <span class="text-secondary font-bold text-xl">✓</span>
-                        <p>خبرة تمتد لأكثر من 17 عاماً في السوق اليمني والإقليمي.</p>
+                        <p>خبرة تمتد لأكثر من 17 عاماً في السوق الإقليمي.</p>
                     </li>
                     <li class="flex items-start gap-3 hover:translate-x-2 transition">
                         <span class="text-secondary font-bold text-xl">✓</span>
@@ -493,7 +537,7 @@
                     <p class="text-blue-100 mt-2">عميل راضي</p>
                 </div>
                 <div class="p-6 hover:scale-110 transition">
-                    <div class="stats-counter text-secondary">5</div>
+                    <div class="stats-counter text-secondary">2</div>
                     <p class="text-blue-100 mt-2">دول مخدومة</p>
                 </div>
             </div>
@@ -505,11 +549,11 @@
         <div class="container mx-auto px-6 flex flex-col md:flex-row gap-12">
             <div class="md:w-1/2">
                 <h2 class="text-3xl font-bold text-primary mb-6">تواصل مع خبراء السراج</h2>
-                <p class="text-gray-600 mb-8">نحن هنا لمساعدتك في حل مشاكل مشروعك وبناء رؤيتك الصناعية. مكاتبنا مفتوحة في جميع أنحاء اليمن.</p>
+                <p class="text-gray-600 mb-8">نحن هنا لمساعدتك في حل مشاكل مشروعك وبناء رؤيتك الصناعية. نخدم السودان وإثيوبيا والمنطقة.</p>
                 <div class="space-y-6">
                     <div class="flex items-center space-x-reverse space-x-4 p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
                         <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-primary text-xl">📞</div>
-                        <div><div class="text-sm text-gray-500">اتصل بنا (صنعاء)</div><div class="font-bold">+967 777 409 273 / +967 777 603 050</div></div>
+                        <div><div class="text-sm text-gray-500">اتصل بنا</div><div class="font-bold">+967 777 409 273 / +967 777 603 050</div></div>
                     </div>
                     <div class="flex items-center space-x-reverse space-x-4 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition">
                         <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-xl">💬</div>
@@ -557,16 +601,14 @@
                     <div class="w-8 h-8 gradient-bg rounded flex items-center justify-center font-bold">S</div>
                     <span class="text-xl font-bold">شركة السراج</span>
                 </div>
-                <p class="max-w-md mx-auto md:mx-0 text-sm leading-relaxed">بناء مصانع الأدوية المتكاملة منذ 2006. نحن شركاء النجاح في اليمن وشرق إفريقيا.</p>
+                <p class="max-w-md mx-auto md:mx-0 text-sm leading-relaxed">بناء مصانع الأدوية المتكاملة منذ 2006. نحن شركاء النجاح في السودان وإثيوبيا والمنطقة.</p>
             </div>
             <div>
                 <h4 class="text-white font-bold mb-6">الدول المخدومة</h4>
                 <ul class="space-y-2 text-sm">
-                    <li>• اليمن (المقر الرئيسي)</li>
-                    <li>• الصومال</li>
+                    <li>• السودان</li>
                     <li>• إثيوبيا</li>
-                    <li>• كينيا</li>
-                    <li>• تنزانيا</li>
+                    <li>• المنطقة الإقليمية</li>
                 </ul>
             </div>
             <div>
@@ -577,7 +619,7 @@
             </div>
         </div>
         <div class="container mx-auto border-t border-gray-800 mt-12 pt-8 text-center text-xs">
-            <p>© 2006-2026 شركة السراج للتجهيزات الصناعية | جميع الحقوق محفوظة</p>
+            <p>© 2006-2026 شركة السراج للتجهيزات الصناعية | جميع الحقوق محفوظة | Al-Seraj Industrial Equipment</p>
         </div>
     </footer>
 
