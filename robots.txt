@@ -1,27 +1,12 @@
-# Robots.txt for Al-Seraj Industrial Equipment Website
-# السراج للتجهيزات الصناعية
-
+# Robots.txt for Asserag.com
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.json$
-Disallow: /*.xml$
 
-# Google
-User-agent: Googlebot
-Allow: /
-
-# Bing
-User-agent: Bingbot
-Allow: /
+# Disallow sensitive directories
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
 
 # Sitemap
-Sitemap: https://karar011.github.io/al-seraj/sitemap.xml
-Sitemap: https://karar011.github.io/al-seraj/robots.txt
-
-# Crawl delay
-Crawl-delay: 1
-
-# Request rate
-Request-rate: 30/1m
+Sitemap: https://asserag.com/sitemap.xml
