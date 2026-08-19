@@ -1,12 +1,3 @@
-# Robots.txt for Asserag.com
 User-agent: *
 Allow: /
-
-# Disallow sensitive directories
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /wp-content/plugins/
-Disallow: /wp-content/themes/
-
-# Sitemap
-Sitemap: https://asserag.com/sitemap.xml
+Sitemap: https://sci5a.github.io/al-seraj/sitemap.xml
