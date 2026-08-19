@@ -1,0 +1,3809 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "warnings": [
+    [
+      "index.html:external_link",
+      "https://github.com/SCI5A"
+    ]
+  ],
+  "checks": [
+    {
+      "name": "page_count_total",
+      "status": "PASS",
+      "detail": "56"
+    },
+    {
+      "name": "page_count_arabic",
+      "status": "PASS",
+      "detail": "28"
+    },
+    {
+      "name": "page_count_english",
+      "status": "PASS",
+      "detail": "28"
+    },
+    {
+      "name": "language_pair_stems",
+      "status": "PASS",
+      "detail": "root/en stem comparison"
+    },
+    {
+      "name": "about.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "about.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "about.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/about.html"
+    },
+    {
+      "name": "about.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/about.html', 'en': 'https://sci5a.github.io/al-seraj/en/about.html'}"
+    },
+    {
+      "name": "about.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "about.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "about.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "about.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "about.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "about.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "about.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "about.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "about.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "article-fire-safety.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "article-fire-safety.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "article-fire-safety.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/article-fire-safety.html"
+    },
+    {
+      "name": "article-fire-safety.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/article-fire-safety.html', 'en': 'https://sci5a.github.io/al-seraj/en/article-fire-safety.html'}"
+    },
+    {
+      "name": "article-fire-safety.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "article-fire-safety.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "article-fire-safety.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "article-fire-safety.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "article-fire-safety.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "article-fire-safety.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "article-fire-safety.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "article-fire-safety.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "article-fire-safety.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "article-gmp-standards.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "article-gmp-standards.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "article-gmp-standards.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/article-gmp-standards.html"
+    },
+    {
+      "name": "article-gmp-standards.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/article-gmp-standards.html', 'en': 'https://sci5a.github.io/al-seraj/en/article-gmp-standards.html'}"
+    },
+    {
+      "name": "article-gmp-standards.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "article-gmp-standards.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "article-gmp-standards.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "article-gmp-standards.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "article-gmp-standards.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "article-gmp-standards.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "article-gmp-standards.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "article-gmp-standards.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "article-gmp-standards.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "article-turnkey-projects.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "article-turnkey-projects.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "article-turnkey-projects.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/article-turnkey-projects.html"
+    },
+    {
+      "name": "article-turnkey-projects.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/article-turnkey-projects.html', 'en': 'https://sci5a.github.io/al-seraj/en/article-turnkey-projects.html'}"
+    },
+    {
+      "name": "article-turnkey-projects.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "article-turnkey-projects.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "article-turnkey-projects.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "article-turnkey-projects.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "article-turnkey-projects.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "article-turnkey-projects.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "article-turnkey-projects.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "article-turnkey-projects.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "article-turnkey-projects.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "articles.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "articles.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "articles.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/articles.html"
+    },
+    {
+      "name": "articles.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/articles.html', 'en': 'https://sci5a.github.io/al-seraj/en/articles.html'}"
+    },
+    {
+      "name": "articles.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "articles.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "articles.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "articles.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "articles.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "articles.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "articles.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "articles.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "articles.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "capabilities.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "capabilities.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "capabilities.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/capabilities.html"
+    },
+    {
+      "name": "capabilities.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/capabilities.html', 'en': 'https://sci5a.github.io/al-seraj/en/capabilities.html'}"
+    },
+    {
+      "name": "capabilities.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "capabilities.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "capabilities.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "capabilities.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "capabilities.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "capabilities.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "capabilities.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "capabilities.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "capabilities.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "contact.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "contact.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "contact.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/contact.html"
+    },
+    {
+      "name": "contact.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/contact.html', 'en': 'https://sci5a.github.io/al-seraj/en/contact.html'}"
+    },
+    {
+      "name": "contact.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "contact.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "contact.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "contact.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "contact.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "contact.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "contact.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "contact.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "contact.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/about.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/about.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/about.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/about.html"
+    },
+    {
+      "name": "en/about.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/about.html', 'en': 'https://sci5a.github.io/al-seraj/en/about.html'}"
+    },
+    {
+      "name": "en/about.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/about.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/about.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/about.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/about.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/about.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/about.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/about.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/about.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/article-fire-safety.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/article-fire-safety.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/article-fire-safety.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/article-fire-safety.html"
+    },
+    {
+      "name": "en/article-fire-safety.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/article-fire-safety.html', 'en': 'https://sci5a.github.io/al-seraj/en/article-fire-safety.html'}"
+    },
+    {
+      "name": "en/article-fire-safety.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/article-fire-safety.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/article-fire-safety.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/article-fire-safety.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/article-fire-safety.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/article-fire-safety.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/article-fire-safety.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/article-fire-safety.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/article-fire-safety.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/article-gmp-standards.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/article-gmp-standards.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/article-gmp-standards.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/article-gmp-standards.html"
+    },
+    {
+      "name": "en/article-gmp-standards.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/article-gmp-standards.html', 'en': 'https://sci5a.github.io/al-seraj/en/article-gmp-standards.html'}"
+    },
+    {
+      "name": "en/article-gmp-standards.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/article-gmp-standards.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/article-gmp-standards.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/article-gmp-standards.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/article-gmp-standards.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/article-gmp-standards.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/article-gmp-standards.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/article-gmp-standards.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/article-gmp-standards.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/article-turnkey-projects.html"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/article-turnkey-projects.html', 'en': 'https://sci5a.github.io/al-seraj/en/article-turnkey-projects.html'}"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/article-turnkey-projects.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/articles.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/articles.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/articles.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/articles.html"
+    },
+    {
+      "name": "en/articles.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/articles.html', 'en': 'https://sci5a.github.io/al-seraj/en/articles.html'}"
+    },
+    {
+      "name": "en/articles.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/articles.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/articles.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/articles.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/articles.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/articles.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/articles.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/articles.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/articles.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/capabilities.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/capabilities.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/capabilities.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/capabilities.html"
+    },
+    {
+      "name": "en/capabilities.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/capabilities.html', 'en': 'https://sci5a.github.io/al-seraj/en/capabilities.html'}"
+    },
+    {
+      "name": "en/capabilities.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/capabilities.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/capabilities.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/capabilities.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/capabilities.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/capabilities.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/capabilities.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/capabilities.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/capabilities.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/contact.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/contact.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/contact.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/contact.html"
+    },
+    {
+      "name": "en/contact.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/contact.html', 'en': 'https://sci5a.github.io/al-seraj/en/contact.html'}"
+    },
+    {
+      "name": "en/contact.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/contact.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/contact.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/contact.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/contact.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/contact.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/contact.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/contact.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/contact.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/index.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/index.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/index.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/index.html"
+    },
+    {
+      "name": "en/index.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/', 'en': 'https://sci5a.github.io/al-seraj/en/index.html'}"
+    },
+    {
+      "name": "en/index.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/index.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/index.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/index.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/index.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/index.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/index.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/index.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/index.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/industries.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/industries.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/industries.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/industries.html"
+    },
+    {
+      "name": "en/industries.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/industries.html', 'en': 'https://sci5a.github.io/al-seraj/en/industries.html'}"
+    },
+    {
+      "name": "en/industries.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/industries.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/industries.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/industries.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/industries.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/industries.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/industries.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/industries.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/industries.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/pharmaceutical-manufacturing.html"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/pharmaceutical-manufacturing.html', 'en': 'https://sci5a.github.io/al-seraj/en/pharmaceutical-manufacturing.html'}"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/pharmaceutical-manufacturing.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/privacy-policy.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/privacy-policy.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/privacy-policy.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/privacy-policy.html"
+    },
+    {
+      "name": "en/privacy-policy.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/privacy-policy.html', 'en': 'https://sci5a.github.io/al-seraj/en/privacy-policy.html'}"
+    },
+    {
+      "name": "en/privacy-policy.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/privacy-policy.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/privacy-policy.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/privacy-policy.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/privacy-policy.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/privacy-policy.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/privacy-policy.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/privacy-policy.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/privacy-policy.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/projects.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/projects.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/projects.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/projects.html"
+    },
+    {
+      "name": "en/projects.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/projects.html', 'en': 'https://sci5a.github.io/al-seraj/en/projects.html'}"
+    },
+    {
+      "name": "en/projects.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/projects.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/projects.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/projects.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/projects.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/projects.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/projects.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/projects.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/projects.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-consulting.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/service-consulting.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/service-consulting.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/service-consulting.html"
+    },
+    {
+      "name": "en/service-consulting.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-consulting.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-consulting.html'}"
+    },
+    {
+      "name": "en/service-consulting.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/service-consulting.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/service-consulting.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/service-consulting.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/service-consulting.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/service-consulting.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/service-consulting.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/service-consulting.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-consulting.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-engineering-design.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/service-engineering-design.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/service-engineering-design.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/service-engineering-design.html"
+    },
+    {
+      "name": "en/service-engineering-design.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-engineering-design.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-engineering-design.html'}"
+    },
+    {
+      "name": "en/service-engineering-design.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/service-engineering-design.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/service-engineering-design.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/service-engineering-design.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/service-engineering-design.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/service-engineering-design.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/service-engineering-design.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/service-engineering-design.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-engineering-design.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-maintenance.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/service-maintenance.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/service-maintenance.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/service-maintenance.html"
+    },
+    {
+      "name": "en/service-maintenance.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-maintenance.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-maintenance.html'}"
+    },
+    {
+      "name": "en/service-maintenance.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/service-maintenance.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/service-maintenance.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/service-maintenance.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/service-maintenance.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/service-maintenance.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/service-maintenance.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/service-maintenance.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-maintenance.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-pharma-setup.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/service-pharma-setup.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/service-pharma-setup.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/service-pharma-setup.html"
+    },
+    {
+      "name": "en/service-pharma-setup.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-pharma-setup.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-pharma-setup.html'}"
+    },
+    {
+      "name": "en/service-pharma-setup.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/service-pharma-setup.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/service-pharma-setup.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/service-pharma-setup.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/service-pharma-setup.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/service-pharma-setup.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/service-pharma-setup.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/service-pharma-setup.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-pharma-setup.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-safety-systems.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/service-safety-systems.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/service-safety-systems.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/service-safety-systems.html"
+    },
+    {
+      "name": "en/service-safety-systems.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-safety-systems.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-safety-systems.html'}"
+    },
+    {
+      "name": "en/service-safety-systems.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/service-safety-systems.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/service-safety-systems.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/service-safety-systems.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/service-safety-systems.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/service-safety-systems.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/service-safety-systems.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/service-safety-systems.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-safety-systems.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-training.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/service-training.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/service-training.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/service-training.html"
+    },
+    {
+      "name": "en/service-training.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-training.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-training.html'}"
+    },
+    {
+      "name": "en/service-training.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/service-training.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/service-training.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/service-training.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/service-training.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/service-training.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/service-training.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/service-training.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/service-training.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/services.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/services.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/services.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/services.html"
+    },
+    {
+      "name": "en/services.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/services.html', 'en': 'https://sci5a.github.io/al-seraj/en/services.html'}"
+    },
+    {
+      "name": "en/services.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/services.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/services.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/services.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/services.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/services.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/services.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/services.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/services.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-cleanrooms.html"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-cleanrooms.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-cleanrooms.html'}"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-cleanrooms.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-electrical-engineering.html"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-electrical-engineering.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-electrical-engineering.html'}"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-electrical-engineering.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-engineering-consultancy.html"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-engineering-consultancy.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-engineering-consultancy.html'}"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-engineering-consultancy.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-hvac-systems.html"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-hvac-systems.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-hvac-systems.html'}"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-hvac-systems.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-industrial-automation.html"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-industrial-automation.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-industrial-automation.html'}"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-industrial-automation.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-industrial-equipment.html"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-industrial-equipment.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-industrial-equipment.html'}"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-industrial-equipment.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-pharmaceutical-facilities.html"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-pharmaceutical-facilities.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-pharmaceutical-facilities.html'}"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-pharmaceutical-facilities.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solution-turnkey-industrial-projects.html"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-turnkey-industrial-projects.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-turnkey-industrial-projects.html'}"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solution-turnkey-industrial-projects.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solutions.html:lang_dir",
+      "status": "PASS",
+      "detail": "en/ltr"
+    },
+    {
+      "name": "en/solutions.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "en/solutions.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/en/solutions.html"
+    },
+    {
+      "name": "en/solutions.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solutions.html', 'en': 'https://sci5a.github.io/al-seraj/en/solutions.html'}"
+    },
+    {
+      "name": "en/solutions.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "en/solutions.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "en/solutions.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "en/solutions.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "en/solutions.html:asset:../icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "en/solutions.html:asset:../manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "en/solutions.html:asset:../content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "en/solutions.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "en/solutions.html:asset:../images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "index.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "index.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "index.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/"
+    },
+    {
+      "name": "index.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/', 'en': 'https://sci5a.github.io/al-seraj/en/index.html'}"
+    },
+    {
+      "name": "index.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "index.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "index.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "index.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "index.html:external_internal_route:https://sci5a.github.io/al-seraj/",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj"
+    },
+    {
+      "name": "index.html:external_internal_route:https://sci5a.github.io/al-seraj/",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj"
+    },
+    {
+      "name": "index.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "index.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "index.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "industries.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "industries.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "industries.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/industries.html"
+    },
+    {
+      "name": "industries.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/industries.html', 'en': 'https://sci5a.github.io/al-seraj/en/industries.html'}"
+    },
+    {
+      "name": "industries.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "industries.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "industries.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "industries.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "industries.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "industries.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "industries.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "industries.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "industries.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/pharmaceutical-manufacturing.html"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/pharmaceutical-manufacturing.html', 'en': 'https://sci5a.github.io/al-seraj/en/pharmaceutical-manufacturing.html'}"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "pharmaceutical-manufacturing.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "privacy-policy.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "privacy-policy.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "privacy-policy.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/privacy-policy.html"
+    },
+    {
+      "name": "privacy-policy.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/privacy-policy.html', 'en': 'https://sci5a.github.io/al-seraj/en/privacy-policy.html'}"
+    },
+    {
+      "name": "privacy-policy.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "privacy-policy.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "privacy-policy.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "privacy-policy.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "privacy-policy.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "privacy-policy.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "privacy-policy.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "privacy-policy.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "privacy-policy.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "projects.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "projects.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "projects.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/projects.html"
+    },
+    {
+      "name": "projects.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/projects.html', 'en': 'https://sci5a.github.io/al-seraj/en/projects.html'}"
+    },
+    {
+      "name": "projects.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "projects.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "projects.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "projects.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "projects.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "projects.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "projects.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "projects.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "projects.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-consulting.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "service-consulting.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "service-consulting.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/service-consulting.html"
+    },
+    {
+      "name": "service-consulting.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-consulting.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-consulting.html'}"
+    },
+    {
+      "name": "service-consulting.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "service-consulting.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "service-consulting.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "service-consulting.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "service-consulting.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "service-consulting.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "service-consulting.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "service-consulting.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-consulting.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-engineering-design.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "service-engineering-design.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "service-engineering-design.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/service-engineering-design.html"
+    },
+    {
+      "name": "service-engineering-design.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-engineering-design.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-engineering-design.html'}"
+    },
+    {
+      "name": "service-engineering-design.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "service-engineering-design.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "service-engineering-design.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "service-engineering-design.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "service-engineering-design.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "service-engineering-design.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "service-engineering-design.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "service-engineering-design.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-engineering-design.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-maintenance.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "service-maintenance.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "service-maintenance.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/service-maintenance.html"
+    },
+    {
+      "name": "service-maintenance.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-maintenance.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-maintenance.html'}"
+    },
+    {
+      "name": "service-maintenance.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "service-maintenance.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "service-maintenance.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "service-maintenance.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "service-maintenance.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "service-maintenance.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "service-maintenance.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "service-maintenance.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-maintenance.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-pharma-setup.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "service-pharma-setup.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "service-pharma-setup.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/service-pharma-setup.html"
+    },
+    {
+      "name": "service-pharma-setup.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-pharma-setup.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-pharma-setup.html'}"
+    },
+    {
+      "name": "service-pharma-setup.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "service-pharma-setup.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "service-pharma-setup.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "service-pharma-setup.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "service-pharma-setup.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "service-pharma-setup.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "service-pharma-setup.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "service-pharma-setup.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-pharma-setup.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-safety-systems.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "service-safety-systems.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "service-safety-systems.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/service-safety-systems.html"
+    },
+    {
+      "name": "service-safety-systems.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-safety-systems.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-safety-systems.html'}"
+    },
+    {
+      "name": "service-safety-systems.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "service-safety-systems.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "service-safety-systems.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "service-safety-systems.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "service-safety-systems.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "service-safety-systems.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "service-safety-systems.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "service-safety-systems.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-safety-systems.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-training.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "service-training.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "service-training.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/service-training.html"
+    },
+    {
+      "name": "service-training.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/service-training.html', 'en': 'https://sci5a.github.io/al-seraj/en/service-training.html'}"
+    },
+    {
+      "name": "service-training.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "service-training.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "service-training.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "service-training.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "service-training.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "service-training.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "service-training.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "service-training.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "service-training.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "services.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "services.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "services.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/services.html"
+    },
+    {
+      "name": "services.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/services.html', 'en': 'https://sci5a.github.io/al-seraj/en/services.html'}"
+    },
+    {
+      "name": "services.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "services.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "services.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "services.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "services.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "services.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "services.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "services.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "services.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-cleanrooms.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-cleanrooms.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-cleanrooms.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-cleanrooms.html"
+    },
+    {
+      "name": "solution-cleanrooms.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-cleanrooms.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-cleanrooms.html'}"
+    },
+    {
+      "name": "solution-cleanrooms.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-cleanrooms.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-cleanrooms.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-cleanrooms.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-cleanrooms.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-cleanrooms.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-cleanrooms.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-cleanrooms.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-cleanrooms.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-electrical-engineering.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-electrical-engineering.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-electrical-engineering.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-electrical-engineering.html"
+    },
+    {
+      "name": "solution-electrical-engineering.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-electrical-engineering.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-electrical-engineering.html'}"
+    },
+    {
+      "name": "solution-electrical-engineering.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-electrical-engineering.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-electrical-engineering.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-electrical-engineering.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-electrical-engineering.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-electrical-engineering.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-electrical-engineering.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-electrical-engineering.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-electrical-engineering.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-engineering-consultancy.html"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-engineering-consultancy.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-engineering-consultancy.html'}"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-engineering-consultancy.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-hvac-systems.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-hvac-systems.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-hvac-systems.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-hvac-systems.html"
+    },
+    {
+      "name": "solution-hvac-systems.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-hvac-systems.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-hvac-systems.html'}"
+    },
+    {
+      "name": "solution-hvac-systems.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-hvac-systems.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-hvac-systems.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-hvac-systems.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-hvac-systems.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-hvac-systems.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-hvac-systems.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-hvac-systems.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-hvac-systems.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-industrial-automation.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-industrial-automation.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-industrial-automation.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-industrial-automation.html"
+    },
+    {
+      "name": "solution-industrial-automation.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-industrial-automation.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-industrial-automation.html'}"
+    },
+    {
+      "name": "solution-industrial-automation.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-industrial-automation.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-industrial-automation.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-industrial-automation.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-industrial-automation.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-industrial-automation.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-industrial-automation.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-industrial-automation.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-industrial-automation.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-industrial-equipment.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-industrial-equipment.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-industrial-equipment.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-industrial-equipment.html"
+    },
+    {
+      "name": "solution-industrial-equipment.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-industrial-equipment.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-industrial-equipment.html'}"
+    },
+    {
+      "name": "solution-industrial-equipment.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-industrial-equipment.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-industrial-equipment.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-industrial-equipment.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-industrial-equipment.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-industrial-equipment.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-industrial-equipment.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-industrial-equipment.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-industrial-equipment.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-pharmaceutical-facilities.html"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-pharmaceutical-facilities.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-pharmaceutical-facilities.html'}"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-pharmaceutical-facilities.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solution-turnkey-industrial-projects.html"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solution-turnkey-industrial-projects.html', 'en': 'https://sci5a.github.io/al-seraj/en/solution-turnkey-industrial-projects.html'}"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solution-turnkey-industrial-projects.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solutions.html:lang_dir",
+      "status": "PASS",
+      "detail": "ar/rtl"
+    },
+    {
+      "name": "solutions.html:one_h1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "solutions.html:canonical",
+      "status": "PASS",
+      "detail": "https://sci5a.github.io/al-seraj/solutions.html"
+    },
+    {
+      "name": "solutions.html:hreflang",
+      "status": "PASS",
+      "detail": "{'ar': 'https://sci5a.github.io/al-seraj/solutions.html', 'en': 'https://sci5a.github.io/al-seraj/en/solutions.html'}"
+    },
+    {
+      "name": "solutions.html:description",
+      "status": "PASS",
+      "detail": "meta description"
+    },
+    {
+      "name": "solutions.html:og_twitter",
+      "status": "PASS",
+      "detail": "OG/Twitter"
+    },
+    {
+      "name": "solutions.html:jsonld",
+      "status": "PASS",
+      "detail": "JSON-LD present and parseable"
+    },
+    {
+      "name": "solutions.html:jsonld_url",
+      "status": "PASS",
+      "detail": "JSON-LD URL"
+    },
+    {
+      "name": "solutions.html:asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "solutions.html:asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "solutions.html:asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "solutions.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "solutions.html:asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "global_asset:manifest.json",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/manifest.json"
+    },
+    {
+      "name": "global_asset:robots.txt",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/robots.txt"
+    },
+    {
+      "name": "global_asset:sitemap.xml",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/sitemap.xml"
+    },
+    {
+      "name": "global_asset:content-pages.css",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/content-pages.css"
+    },
+    {
+      "name": "global_asset:icons/favicon-32.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/favicon-32.png"
+    },
+    {
+      "name": "global_asset:icons/icon-192.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/icon-192.png"
+    },
+    {
+      "name": "global_asset:icons/icon-512.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/icon-512.png"
+    },
+    {
+      "name": "global_asset:icons/icon-maskable.png",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/icons/icon-maskable.png"
+    },
+    {
+      "name": "global_asset:images/logo.jpg",
+      "status": "PASS",
+      "detail": "/home/ubuntu/gate-d-integration/al-seraj/images/logo.jpg"
+    },
+    {
+      "name": "manifest_icons",
+      "status": "PASS",
+      "detail": "[{'src': 'icons/icon-192.png', 'sizes': '192x192', 'type': 'image/png', 'purpose': 'any maskable'}, {'src': 'icons/icon-512.png', 'sizes': '512x512', 'type': 'image/png', 'purpose': 'any maskable'}, {'src': 'icons/icon-maskable.png', 'sizes': '512x512', 'type': 'image/png', 'purpose': 'maskable'}]"
+    },
+    {
+      "name": "robots_sitemap",
+      "status": "PASS",
+      "detail": "robots sitemap declaration"
+    },
+    {
+      "name": "sitemap_url_count",
+      "status": "PASS",
+      "detail": "56"
+    },
+    {
+      "name": "sitemap_contains_https",
+      "status": "PASS",
+      "detail": "base URL"
+    },
+    {
+      "name": "responsive_media_query",
+      "status": "PASS",
+      "detail": "responsive CSS"
+    },
+    {
+      "name": "single_workflow",
+      "status": "PASS",
+      "detail": ".github/workflows/static.yml"
+    },
+    {
+      "name": "authoritative_static_workflow",
+      "status": "PASS",
+      "detail": "static.yml"
+    },
+    {
+      "name": "artifact_allowlist",
+      "status": "PASS",
+      "detail": "allowlist"
+    },
+    {
+      "name": "no_secrets",
+      "status": "PASS",
+      "detail": "pattern scan"
+    },
+    {
+      "name": "no_source_repo_dependencies",
+      "status": "PASS",
+      "detail": "pattern scan"
+    },
+    {
+      "name": "no_placeholders",
+      "status": "PASS",
+      "detail": "pattern scan"
+    },
+    {
+      "name": "no_external_runtime_assets",
+      "status": "PASS",
+      "detail": "pattern scan"
+    },
+    {
+      "name": "artifact_page_count",
+      "status": "PASS",
+      "detail": "56"
+    },
+    {
+      "name": "artifact_source_hash_inputs",
+      "status": "PASS",
+      "detail": "artifact inputs"
+    },
+    {
+      "name": "render:home-mobile",
+      "status": "PASS",
+      "detail": "rc=0;bytes=79737"
+    },
+    {
+      "name": "render:home-tablet",
+      "status": "PASS",
+      "detail": "rc=0;bytes=126225"
+    },
+    {
+      "name": "render:home-desktop",
+      "status": "PASS",
+      "detail": "rc=0;bytes=183484"
+    },
+    {
+      "name": "render:contact-mobile",
+      "status": "PASS",
+      "detail": "rc=0;bytes=98366"
+    }
+  ],
+  "page_count": 56,
+  "artifact": "/home/ubuntu/gate-d-integration/preflight-site"
+}

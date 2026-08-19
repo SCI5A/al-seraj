@@ -1,0 +1,218 @@
+[
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-consulting.html",
+    "destination_path": "service-consulting.html",
+    "action": "adapted",
+    "reason": "Primary-source service page selected; source shell, old domain, external CSS, and delivery links removed; content restyled to canonical static shell.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-engineering-design.html",
+    "destination_path": "service-engineering-design.html",
+    "action": "adapted",
+    "reason": "Primary-source service page selected; source shell, old domain, external CSS, and delivery links removed; content restyled to canonical static shell.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-maintenance.html",
+    "destination_path": "service-maintenance.html",
+    "action": "adapted",
+    "reason": "Primary-source service page selected; source shell, old domain, external CSS, and delivery links removed; content restyled to canonical static shell.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-pharma-setup.html",
+    "destination_path": "service-pharma-setup.html",
+    "action": "adapted",
+    "reason": "Primary-source service page selected; source shell, old domain, external CSS, and delivery links removed; content restyled to canonical static shell.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-safety-systems.html",
+    "destination_path": "service-safety-systems.html",
+    "action": "adapted",
+    "reason": "Primary-source service page selected; source shell, old domain, external CSS, and delivery links removed; content restyled to canonical static shell.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-training.html",
+    "destination_path": "service-training.html",
+    "action": "adapted",
+    "reason": "Primary-source service page selected; source shell, old domain, external CSS, and delivery links removed; content restyled to canonical static shell.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-cleanrooms.html",
+    "destination_path": "solution-cleanrooms.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-electrical-engineering.html",
+    "destination_path": "solution-electrical-engineering.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-engineering-consultancy.html",
+    "destination_path": "solution-engineering-consultancy.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-hvac-systems.html",
+    "destination_path": "solution-hvac-systems.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-industrial-automation.html",
+    "destination_path": "solution-industrial-automation.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-industrial-equipment.html",
+    "destination_path": "solution-industrial-equipment.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-pharmaceutical-facilities.html",
+    "destination_path": "solution-pharmaceutical-facilities.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-turnkey-industrial-projects.html",
+    "destination_path": "solution-turnkey-industrial-projects.html",
+    "action": "adapted",
+    "reason": "Secondary-source solution page is complementary; no equivalent detailed solution route exists in primary source.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "article-fire-safety.html",
+    "destination_path": "article-fire-safety.html",
+    "action": "adapted",
+    "reason": "Relevant primary-source knowledge article; external domain and unsupported metadata removed.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "article-gmp-standards.html",
+    "destination_path": "article-gmp-standards.html",
+    "action": "adapted",
+    "reason": "Relevant primary-source knowledge article; external domain and unsupported metadata removed.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "article-turnkey-projects.html",
+    "destination_path": "article-turnkey-projects.html",
+    "action": "adapted",
+    "reason": "Relevant primary-source knowledge article; external domain and unsupported metadata removed.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "service-*.html",
+    "destination_path": "services.html",
+    "action": "created index",
+    "reason": "Canonical route index for the integrated service pages.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-*.html",
+    "destination_path": "solutions.html",
+    "action": "created index",
+    "reason": "Canonical route index for complementary solution pages.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/seraj",
+    "source_path": "article-*.html",
+    "destination_path": "articles.html",
+    "action": "created index",
+    "reason": "Canonical route index for selected knowledge pages.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "privacy-policy.html",
+    "destination_path": "privacy-policy.html",
+    "action": "adapted",
+    "reason": "Secondary privacy behavior contract is more accurate for the current no-provider/no-storage interface; custom-domain/legal claims removed.",
+    "validation": "PASS: static artifact, route, metadata, asset, and security checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "contact.html + js/company-contact.js",
+    "destination_path": "contact.html",
+    "action": "adapted UI only",
+    "reason": "Secondary contact UI and accessible validation selected; provider logic and custom-domain references deliberately excluded.",
+    "validation": "PASS: static artifact, route, metadata, asset, security, and local-only form checks"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "about.html",
+    "destination_path": "about.html",
+    "action": "adapted",
+    "reason": "Evidence-conscious company identity and methodology page; explicitly avoids unsupported project-history claims.",
+    "validation": "PASS: static/routes/metadata/assets/security"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "industries.html",
+    "destination_path": "industries.html",
+    "action": "adapted",
+    "reason": "Industry-context structure supported by source; rewritten to avoid claims of completed projects or certifications.",
+    "validation": "PASS: static/routes/metadata/assets/security"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "projects.html",
+    "destination_path": "projects.html",
+    "action": "adapted evidence policy",
+    "reason": "Portfolio framework retained, but unverified projects and case studies are not published.",
+    "validation": "PASS: static/routes/metadata/assets/security"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new + reviewed capability pages",
+    "source_path": "about.html + solution-*.html",
+    "destination_path": "capabilities.html",
+    "action": "synthesized categories",
+    "reason": "Capabilities page uses categories already present in reviewed sources and marks scope/claim verification as required.",
+    "validation": "PASS: static/routes/metadata/assets/security"
+  },
+  {
+    "source_repository": "SCI5A/al-seraj-new",
+    "source_path": "solution-pharmaceutical-facilities.html",
+    "destination_path": "pharmaceutical-manufacturing.html",
+    "action": "adapted",
+    "reason": "Pharmaceutical-facility context is supported; project records, certifications, and outcomes are deliberately excluded.",
+    "validation": "PASS: static/routes/metadata/assets/security"
+  }
+]

@@ -1,107 +1,32 @@
 {
-  "name": "السراج للتجهيزات الصناعية - Al-Seraj Industrial Equipment",
+  "name": "السراج لتجهيزات مصانع الأدوية",
   "short_name": "السراج",
-  "description": "الوكيل الحصري المعتمد لـ Asenware و Ekingair. متخصصون في توريد وتركيب مصانع الأدوية المتكاملة، أنظمة الإنذار والحريق، التكييف الصناعي. خدمات في اليمن، الصومال، إثيوبيا، كينيا، تنزانيا منذ 2006.",
-  "start_url": "https://karar011.github.io/al-seraj/",
+  "description": "السراج لتجهيز وتصميم مصانع الأدوية والحلول الصناعية.",
+  "start_url": "/al-seraj/",
   "scope": "/al-seraj/",
-  "contact": {
-    "phone": "+967-777-409-273",
-    "email": "contact@asserag.com",
-    "whatsapp": "+967777409273"
-  },
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "theme_color": "#1e3a8a",
-  "background_color": "#060f1e",
-  "categories": ["business", "industrial", "manufacturing"],
-  "screenshots": [
-    {
-      "src": "/al-seraj/screenshot-1.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "/al-seraj/screenshot-2.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide"
-    }
-  ],
+  "dir": "rtl",
+  "lang": "ar",
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/al-seraj/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
-      "src": "/al-seraj/icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
-      "src": "/al-seraj/icon-maskable.png",
-      "sizes": "192x192",
+      "src": "icons/icon-maskable.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "اتصل بنا",
-      "short_name": "اتصل",
-      "description": "تواصل مع فريق السراج",
-      "url": "https://karar011.github.io/al-seraj/?action=contact",
-      "icons": [
-        {
-          "src": "/al-seraj/icon-contact.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "خدماتنا",
-      "short_name": "الخدمات",
-      "description": "اعرف عن خدماتنا",
-      "url": "https://karar011.github.io/al-seraj/?action=services",
-      "icons": [
-        {
-          "src": "/al-seraj/icon-services.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    }
-  ],
-  "screenshots_ar": [
-    {
-      "src": "/al-seraj/screenshot-ar-1.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "lang": "ar"
-    }
-  ],
-  "lang": "ar",
-  "dir": "rtl",
-  "prefer_related_applications": false,
-  "related_applications": [
-    {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.alseraj.industrial",
-      "id": "com.alseraj.industrial"
-    }
-  ],
-  "screenshots_en": [
-    {
-      "src": "/al-seraj/screenshot-en-1.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "lang": "en"
     }
   ]
 }
