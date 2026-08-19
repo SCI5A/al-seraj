@@ -38,7 +38,7 @@ jobs:
           set -eu
           rm -rf _site
           mkdir -p _site/icons _site/images
-          cp index.html manifest.json robots.txt sitemap.xml content-pages.css _site/
+          cp index.html manifest.json robots.txt sitemap.xml content-pages.css theme-language.js _site/
           cp services.html solutions.html articles.html contact.html privacy-policy.html about.html industries.html projects.html capabilities.html pharmaceutical-manufacturing.html _site/
           cp service-*.html solution-*.html article-*.html _site/
           cp -r en _site/en
