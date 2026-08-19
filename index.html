@@ -136,6 +136,15 @@
             box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
         }
 
+        @media (max-width: 1300px) and (min-width: 1101px) {
+            .container { padding-left: 12px; padding-right: 12px; }
+            nav { gap: 1rem; }
+            nav ul { gap: 1.35rem; }
+            nav a { font-size: 0.86rem; }
+            nav .nav-cta { padding: 0.6rem 0.9rem; font-size: 0.86rem; }
+            nav .theme-control { font-size: 0.82rem; padding: 0.35rem 0.45rem; }
+        }
+
         @media (max-width: 1100px) {
             nav {
                 flex-wrap: wrap;
@@ -155,6 +164,18 @@
 
         .btn-whatsapp { background: #16a34a; color: #fff; border-color: #16a34a; }
         .btn-whatsapp:hover, .btn-whatsapp:focus { background: #15803d; border-color: #15803d; outline: 2px solid #fbbf24; outline-offset: 3px; }
+
+        html[data-theme="dark"] body { background: #0b1120; color: #e5e7eb; }
+        html[data-theme="dark"] .stats, html[data-theme="dark"] .contact { background: #0f172a; color: #e5e7eb; }
+        html[data-theme="dark"] .stat-card, html[data-theme="dark"] .service-card, html[data-theme="dark"] .contact-info, html[data-theme="dark"] .contact-form { background: #111827; color: #e5e7eb; border-color: #334155; }
+        html[data-theme="dark"] .section-title, html[data-theme="dark"] .contact-info h3, html[data-theme="dark"] .service-card h3, html[data-theme="dark"] .form-group label { color: #f8fafc; }
+        html[data-theme="dark"] .section-subtitle, html[data-theme="dark"] .service-card p, html[data-theme="dark"] .stat-label { color: #cbd5e1; }
+        html[data-theme="dark"] .stat-number { color: #93c5fd; }
+        html[data-theme="dark"] .form-group input, html[data-theme="dark"] .form-group textarea { background: #0f172a; color: #f8fafc; border-color: #475569; }
+        html[data-theme="dark"] .btn-secondary { background: #e5e7eb; color: #1e3a8a; }
+        html[data-theme="dark"] footer { background: #020617; }
+        .theme-control { font: inherit; border: 1px solid rgba(255,255,255,.55); background: rgba(255,255,255,.12); color: #fff; border-radius: 6px; padding: .45rem .65rem; font-weight: 700; cursor: pointer; white-space: nowrap; }
+        .theme-control:hover, .theme-control:focus { background: rgba(255,255,255,.24); outline: 2px solid #fbbf24; outline-offset: 2px; }
 
         /* ===== Hero Section ===== */
         .hero {
@@ -550,6 +571,7 @@
         "description": "حلول هندسية وتجهيزات صناعية ودوائية ضمن نطاقات يحددها المشروع المعتمد."
     }
     </script>
+<script src="theme-language.js"></script>
 </head>
 <body>
 
