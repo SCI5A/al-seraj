@@ -8,7 +8,7 @@
     <meta name="author" content="Al-Seraj Company">
     <meta name="theme-color" content="#1e40af">
     <title>السراج - تجهيزات مصانع الأدوية | حلول صيدلانية متكاملة</title>
-    <link rel="canonical" href="https://sci5a.github.io/al-seraj/"><link rel="icon" href="icons/favicon-32.png" type="image/png"><link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://sci5a.github.io/al-seraj/"><link rel="alternate" hreflang="ar" href="https://sci5a.github.io/al-seraj/"><link rel="alternate" hreflang="en" href="https://sci5a.github.io/al-seraj/en/index.html"><link rel="icon" href="icons/favicon-32.png" type="image/png"><link rel="manifest" href="manifest.json">
     <style>
         * {
             margin: 0;
@@ -568,8 +568,7 @@
             }
         ],
         "sameAs": [
-            "https://www.facebook.com/asseraglight/",
-            "https://wa.me/967777409273"
+            "https://www.facebook.com/asseraglight/"
         ]
     }
     </script>
@@ -580,18 +579,11 @@
 <header>
     <div class="container">
         <nav>
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <img class="logo-icon" src="images/logo.jpg" alt="شعار السراج" width="45" height="45">
                 <span>السراج</span>
             </a>
-            <ul>
-                <li><a href="#services">الخدمات</a></li>
-                <li><a href="services.html">صفحات الخدمات</a></li>
-                <li><a href="solutions.html">الحلول</a></li>
-                <li><a href="articles.html">المقالات</a></li>
-                <li><a href="#specializations">التخصصات</a></li>
-                <li><a href="#contact">التواصل</a></li>
-            </ul>
+            <ul><li><a href="#services">الخدمات</a></li><li><a href="about.html">عن الشركة</a></li><li><a href="services.html">صفحات الخدمات</a></li><li><a href="solutions.html">الحلول</a></li><li><a href="industries.html">القطاعات</a></li><li><a href="projects.html">المشاريع</a></li><li><a href="capabilities.html">القدرات</a></li><li><a href="articles.html">المقالات</a></li><li><a href="#specializations">التخصصات</a></li><li><a href="#contact">التواصل</a></li><li><a href="en/index.html">English</a></li></ul>
             <a href="contact.html" class="btn btn-cta nav-cta">اطلب عرض سعر</a>
         </nav>
     </div>
@@ -773,7 +765,8 @@
                     <textarea id="message" name="message" required></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">إرسال الرسالة</button>
+                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">مراجعة الاستفسار محليًا</button>
+                <p id="homepage-form-status" role="status" aria-live="polite" style="margin-top: 12px; color: var(--primary); font-weight: 700;"></p>
             </form>
         </div>
     </div>
@@ -804,9 +797,9 @@
             <div class="footer-section">
                 <h4>الشراكات</h4>
                 <ul>
-                    <li><a href="#">الشركة المصرية المتحدة</a></li>
-                    <li><a href="#">PharMatrix الأردنية</a></li>
-                    <li><a href="#">شركاء موثوقون</a></li>
+                    <li>الشركة المصرية المتحدة — تتطلب مراجعة مالك المحتوى</li>
+                    <li>PharMatrix الأردنية — تتطلب مراجعة مالك المحتوى</li>
+                    <li>شركاء موثوقون — تتطلب مراجعة مالك المحتوى</li>
                 </ul>
             </div>
             
@@ -816,7 +809,7 @@
                     <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
                     <li><a href="contact.html">صفحة التواصل</a></li>
                     <li><a href="tel:+967777409273">+967 777 409 273</a></li>
-                    <li><a href="mailto:contact@asserag.com">contact@asserag.com</a></li>
+                    <li>contact@asserag.com — قناة التسليم غير مهيأة</li>
                     <li><a href="https://sci5a.github.io/al-seraj/" target="_blank">sci5a.github.io/al-seraj/</a></li>
                 </ul>
             </div>
@@ -847,11 +840,13 @@
         const formData = new FormData(event.target);
         const data = Object.fromEntries(formData);
         
-        // Create mailto link
-        const mailtoLink = `mailto:contact@asserag.com?subject=استفسار جديد من ${data.name}&body=الاسم: ${data.name}%0Aالبريد: ${data.email}%0Aالهاتف: ${data.phone}%0A%0AالرسالةRn${data.message}`;
-        
-        window.location.href = mailtoLink;
-        alert('شكراً لتواصلك معنا! سنرد عليك قريباً.');
+        const status = document.getElementById('homepage-form-status');
+        if (!event.target.checkValidity()) {
+            event.target.reportValidity();
+            status.textContent = 'يرجى استكمال الحقول المطلوبة.';
+            return;
+        }
+        status.textContent = 'تمت مراجعة الحقول محليًا فقط. لم يتم إرسال أو تخزين أي بيانات.';
         event.target.reset();
     }
 
