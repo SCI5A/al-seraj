@@ -94,6 +94,7 @@
             list-style: none;
             gap: 2.5rem;
             flex: 1;
+            min-width: 0;
         }
 
         nav a {
@@ -133,6 +134,23 @@
             background: #f97316;
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+        }
+
+        @media (max-width: 1100px) {
+            nav {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+            nav ul {
+                order: 3;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 0.75rem 1.25rem;
+            }
+            nav .nav-cta {
+                order: 2;
+            }
         }
 
         /* ===== Hero Section ===== */
@@ -468,12 +486,17 @@
         @media (max-width: 768px) {
             nav ul {
                 flex-direction: column;
-                gap: 1rem;
-                display: none;
+                align-items: center;
+                width: 100%;
+                gap: 0.65rem;
+                display: flex;
+                order: 3;
             }
 
-            nav.active ul {
-                display: flex;
+            nav .nav-cta {
+                width: 100%;
+                justify-content: center;
+                order: 2;
             }
 
             .hero h1 {
@@ -730,7 +753,6 @@
                 <ul>
                     <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
                     <li><a href="contact.html">صفحة التواصل</a></li>
-                    <li><a href="tel:+967777409273">+967 777 409 273</a></li>
                     <li>قناة التسليم غير مهيأة — قناة التسليم غير مهيأة</li>
                     <li><a href="https://sci5a.github.io/al-seraj/" target="_blank">sci5a.github.io/al-seraj/</a></li>
                 </ul>
