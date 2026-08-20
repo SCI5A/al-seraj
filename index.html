@@ -1,845 +1,237 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="السراج - حلول هندسية وتجهيزات صناعية ودوائية ضمن نطاقات يحددها المشروع المعتمد">
-    <meta name="keywords" content="السراج, تجهيزات مصانع أدوية, تجهيزات صناعية, تصميم هندسي, لوحات كهربائية, HVAC, GMP, حلول هندسية">
-    <meta name="author" content="Al-Seraj Company">
-    <meta name="theme-color" content="#1e40af">
-    <title>السراج - تجهيزات مصانع الأدوية | حلول صيدلانية متكاملة</title>
-    <link rel="canonical" href="https://sci5a.github.io/al-seraj/"><link rel="alternate" hreflang="ar" href="https://sci5a.github.io/al-seraj/"><link rel="alternate" hreflang="en" href="https://sci5a.github.io/al-seraj/en/index.html"><meta property="og:type" content="website"><meta property="og:title" content="السراج - تجهيزات مصانع الأدوية"><meta property="og:description" content="حلول هندسية وتجهيزات صناعية ودوائية ضمن نطاقات يحددها المشروع المعتمد."><meta property="og:url" content="https://sci5a.github.io/al-seraj/"><meta property="og:image" content="https://sci5a.github.io/al-seraj/icons/icon-512.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="السراج - تجهيزات مصانع الأدوية"><meta name="twitter:description" content="حلول هندسية وتجهيزات صناعية ودوائية ضمن نطاقات يحددها المشروع المعتمد."><meta name="twitter:image" content="https://sci5a.github.io/al-seraj/icons/icon-512.png"><link rel="icon" href="icons/favicon-32.png" type="image/png"><link rel="manifest" href="manifest.json">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --primary: #1e40af;
-            --primary-dark: #1e3a8a;
-            --secondary: #dc2626;
-            --accent: #f59e0b;
-            --success: #10b981;
-            --text-dark: #1f2937;
-            --text-light: #6b7280;
-            --bg-light: #f9fafb;
-            --bg-lighter: #f3f4f6;
-            --border: #e5e7eb;
-            --shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Segoe UI', 'Cairo', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-dark);
-            background-color: #ffffff;
-        }
-
-        /* ===== Header & Navigation ===== */
-        header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: var(--shadow-lg);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: white;
-        }
-
-        .logo-icon {
-            width: 45px;
-            height: 45px;
-            background: linear-gradient(135deg, var(--accent) 0%, #f97316 100%);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 1.4rem;
-            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 2.5rem;
-            flex: 1;
-            min-width: 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            font-weight: 500;
-            font-size: 0.95rem;
-            position: relative;
-        }
-
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            right: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent);
-            transition: width 0.3s ease;
-        }
-
-        nav a:hover::after {
-            width: 100%;
-        }
-
-        .nav-cta {
-            background: var(--accent);
-            color: white;
-            padding: 0.7rem 1.5rem;
-            border-radius: 6px;
-            transition: all 0.3s ease;
-            white-space: nowrap;
-        }
-
-        .nav-cta:hover {
-            background: #f97316;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
-        }
-
-        @media (max-width: 1300px) and (min-width: 1101px) {
-            .container { padding-left: 12px; padding-right: 12px; }
-            nav { gap: 1rem; }
-            nav ul { gap: 1.35rem; }
-            nav a { font-size: 0.86rem; }
-            nav .nav-cta { padding: 0.6rem 0.9rem; font-size: 0.86rem; }
-            nav .theme-control { font-size: 0.82rem; padding: 0.35rem 0.45rem; }
-        }
-
-        @media (max-width: 1100px) {
-            nav {
-                flex-wrap: wrap;
-                gap: 1rem;
-            }
-            nav ul {
-                order: 3;
-                flex-basis: 100%;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 0.75rem 1.25rem;
-            }
-            nav .nav-cta {
-                order: 2;
-            }
-        }
-
-        .btn-whatsapp { background: #16a34a; color: #fff; border-color: #16a34a; }
-        .btn-whatsapp:hover, .btn-whatsapp:focus { background: #15803d; border-color: #15803d; outline: 2px solid #fbbf24; outline-offset: 3px; }
-
-        html[data-theme="dark"] body { background: #0b1120; color: #e5e7eb; }
-        html[data-theme="dark"] .stats, html[data-theme="dark"] .contact { background: #0f172a; color: #e5e7eb; }
-        html[data-theme="dark"] .stat-card, html[data-theme="dark"] .service-card, html[data-theme="dark"] .contact-info, html[data-theme="dark"] .contact-form { background: #111827; color: #e5e7eb; border-color: #334155; }
-        html[data-theme="dark"] .section-title, html[data-theme="dark"] .contact-info h3, html[data-theme="dark"] .service-card h3, html[data-theme="dark"] .form-group label { color: #f8fafc; }
-        html[data-theme="dark"] .section-subtitle, html[data-theme="dark"] .service-card p, html[data-theme="dark"] .stat-label { color: #cbd5e1; }
-        html[data-theme="dark"] .stat-number { color: #93c5fd; }
-        html[data-theme="dark"] .form-group input, html[data-theme="dark"] .form-group textarea { background: #0f172a; color: #f8fafc; border-color: #475569; }
-        html[data-theme="dark"] .btn-secondary { background: #e5e7eb; color: #1e3a8a; }
-        html[data-theme="dark"] footer { background: #020617; }
-        .theme-control { font: inherit; border: 1px solid rgba(255,255,255,.55); background: rgba(255,255,255,.12); color: #fff; border-radius: 6px; padding: .45rem .65rem; font-weight: 700; cursor: pointer; white-space: nowrap; }
-        .theme-control:hover, .theme-control:focus { background: rgba(255,255,255,.24); outline: 2px solid #fbbf24; outline-offset: 2px; }
-
-        /* ===== Hero Section ===== */
-        .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-            padding: 100px 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(255,255,255,0.05)" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,144C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
-            background-size: cover;
-            opacity: 0.1;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
-            opacity: 0.95;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            padding: 0.9rem 2rem;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .btn-primary {
-            background: var(--accent);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #f97316;
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);
-        }
-
-        .btn-secondary {
-            background: white;
-            color: var(--primary);
-        }
-
-        .btn-secondary:hover {
-            background: var(--bg-light);
-            transform: translateY(-3px);
-        }
-
-        /* ===== Stats Section ===== */
-        .stats {
-            background: var(--bg-lighter);
-            padding: 60px 0;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .stat-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: var(--shadow);
-            transition: all 0.3s ease;
-        }
-
-        .stat-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-
-        .stat-label {
-            color: var(--text-light);
-            font-size: 0.95rem;
-        }
-
-        /* ===== Services Section ===== */
-        .services {
-            padding: 80px 0;
-        }
-
-        .section-title {
-            font-size: 2.5rem;
-            font-weight: 700;
-            text-align: center;
-            margin-bottom: 3rem;
-            color: var(--text-dark);
-        }
-
-        .section-subtitle {
-            text-align: center;
-            color: var(--text-light);
-            margin-bottom: 2rem;
-            font-size: 1.1rem;
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-
-        .service-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-            transition: all 0.3s ease;
-            border-top: 4px solid var(--primary);
-        }
-
-        .service-card:hover {
-            transform: translateY(-8px);
-            box-shadow: var(--shadow-lg);
-            border-top-color: var(--accent);
-        }
-
-        .service-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .service-card h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            color: var(--text-dark);
-        }
-
-        .service-card p {
-            color: var(--text-light);
-            line-height: 1.8;
-        }
-
-        /* ===== Specializations Section ===== */
-        .specializations {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-            padding: 80px 0;
-        }
-
-        .spec-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .spec-item {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem;
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-        }
-
-        .spec-item:hover {
-            background: rgba(255, 255, 255, 0.15);
-            border-color: var(--accent);
-            transform: translateY(-5px);
-        }
-
-        .spec-item strong {
-            display: block;
-            margin-bottom: 0.5rem;
-            color: var(--accent);
-        }
-
-        /* ===== Contact Section ===== */
-        .contact {
-            padding: 80px 0;
-            background: var(--bg-lighter);
-        }
-
-        .contact-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 3rem;
-            align-items: center;
-        }
-
-        .contact-info h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--text-dark);
-        }
-
-        .contact-item {
-            margin-bottom: 1.5rem;
-            display: flex;
-            gap: 1rem;
-        }
-
-        .contact-icon {
-            font-size: 1.5rem;
-            color: var(--primary);
-            min-width: 30px;
-        }
-
-        .contact-form {
-            background: white;
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-            color: var(--text-dark);
-        }
-
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 0.8rem;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            font-family: inherit;
-            transition: all 0.3s ease;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            min-height: 120px;
-        }
-
-        /* ===== Footer ===== */
-        footer {
-            background: var(--text-dark);
-            color: white;
-            padding: 3rem 0 1rem;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h4 {
-            margin-bottom: 1rem;
-            color: var(--accent);
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section ul li {
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-section a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent);
-        }
-
-        .footer-bottom {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding-top: 1.5rem;
-            text-align: center;
-            color: rgba(255, 255, 255, 0.6);
-        }
-
-        /* ===== Responsive ===== */
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-                width: 100%;
-                gap: 0.65rem;
-                display: flex;
-                order: 3;
-            }
-
-            nav .nav-cta {
-                width: 100%;
-                justify-content: center;
-                order: 2;
-            }
-
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .contact-content {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-buttons {
-                flex-direction: column;
-            }
-
-            .btn {
-                width: 100%;
-                justify-content: center;
-            }
-        }
-
-        /* ===== Animations ===== */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .fade-in {
-            animation: fadeInUp 0.6s ease-out;
-        }
-    </style>
-    <!-- Structured Data (Schema.org): neutral page metadata only; no unverified business credentials. -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "السراج - تجهيزات مصانع الأدوية",
-        "url": "https://sci5a.github.io/al-seraj/",
-        "description": "حلول هندسية وتجهيزات صناعية ودوائية ضمن نطاقات يحددها المشروع المعتمد."
-    }
-    </script>
-<script src="theme-language.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="حلول هندسية صناعية متكاملة للمصانع الدوائية والمنشآت الصناعية، من التصميم والتوريد إلى التنفيذ والتشغيل وفق متطلبات المشروع والمعايير المعتمدة.">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="السراج, حلول هندسية صناعية, مصانع دوائية, منشآت صناعية, HVAC, غرف نظيفة, هندسة كهربائية, أتمتة صناعية, تجهيزات صناعية">
+  <meta name="author" content="Al-Seraj Company">
+  <meta name="theme-color" content="#0d2b66">
+  <style>.btn-whatsapp:focus{outline:3px solid var(--home-gold);outline-offset:3px}</style>
+  <title>السراج | حلول هندسية صناعية متكاملة</title>
+  <link rel="canonical" href="https://sci5a.github.io/al-seraj/">
+  <link rel="alternate" hreflang="ar" href="https://sci5a.github.io/al-seraj/">
+  <link rel="alternate" hreflang="en" href="https://sci5a.github.io/al-seraj/en/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="السراج | حلول هندسية صناعية متكاملة">
+  <meta property="og:description" content="من التصميم الهندسي إلى التوريد والتنفيذ والتشغيل، حلول متكاملة للمصانع الدوائية والمنشآت الصناعية وفق متطلبات المشروع والمعايير المعتمدة.">
+  <meta property="og:url" content="https://sci5a.github.io/al-seraj/">
+  <meta property="og:image" content="https://sci5a.github.io/al-seraj/icons/icon-512.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="السراج | حلول هندسية صناعية متكاملة">
+  <meta name="twitter:description" content="حلول هندسية صناعية متكاملة للمصانع الدوائية والمنشآت الصناعية.">
+  <meta name="twitter:image" content="https://sci5a.github.io/al-seraj/icons/icon-512.png">
+  <link rel="icon" href="icons/favicon-32.png" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="homepage-ux.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"السراج | حلول هندسية صناعية متكاملة","url":"https://sci5a.github.io/al-seraj/","description":"حلول هندسية صناعية متكاملة للمصانع الدوائية والمنشآت الصناعية وفق متطلبات المشروع والمعايير المعتمدة."}
+  </script>
+  <script src="theme-language.js"></script>
+  <script src="homepage-menu.js"></script>
 </head>
-<body>
-
-<!-- Header -->
-<header>
+<body class="homepage">
+  <header class="home-header">
     <div class="container">
-        <nav>
-            <a href="index.html" class="logo">
-                <img class="logo-icon" src="images/logo.jpg" alt="شعار السراج" width="45" height="45">
-                <span>السراج</span>
-            </a>
-            <ul><li><a href="#services">الخدمات</a></li><li><a href="about.html">عن الشركة</a></li><li><a href="services.html">صفحات الخدمات</a></li><li><a href="solutions.html">الحلول</a></li><li><a href="industries.html">القطاعات</a></li><li><a href="projects.html">المشاريع</a></li><li><a href="capabilities.html">القدرات</a></li><li><a href="articles.html">المقالات</a></li><li><a href="#specializations">التخصصات</a></li><li><a href="#contact">التواصل</a></li><li><a href="en/index.html">English</a></li></ul>
-            <a href="contact.html" class="btn btn-cta nav-cta">اطلب عرض سعر</a>
-        </nav>
-    </div>
-</header>
-
-<!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <div class="hero-content">
-            <h1>حلول صيدلانية متكاملة</h1>
-            <p>متخصصون في تجهيز وتصميم مصانع الأدوية بأحدث المعايير العالمية والتقنيات المتقدمة</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">تواصل معنا</a>
-                <a href="#services" class="btn btn-secondary">تعرف على خدماتنا</a>
-<a href="https://wa.me/967777603050?text=Hello%20Al-Seraj%20Industrial%20Solutions%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20industrial%20and%20pharmaceutical%20solutions.%20Please%20assist%20me." class="btn btn-whatsapp whatsapp-link" target="_blank" rel="noopener noreferrer">تواصل معنا عبر واتساب</a>
-            </div>
+      <nav class="home-nav" aria-label="التنقل الرئيسي">
+        <a class="home-brand" href="index.html">
+          <img src="images/logo.jpg" alt="شعار السراج" width="46" height="46">
+          <span class="home-brand-text"><strong>السراج</strong><small>حلول هندسية صناعية</small></span>
+        </a>
+        <button class="home-menu-toggle" type="button" data-home-menu-toggle data-open-label="فتح القائمة" data-close-label="إغلاق القائمة" aria-expanded="false" aria-controls="homepage-navigation"><span data-home-menu-label>القائمة</span></button>
+        <div class="home-nav-panel" data-home-menu-panel id="homepage-navigation">
+          <ul class="home-menu">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="services.html">الخدمات</a></li>
+            <li><a href="solutions.html">الحلول</a></li>
+            <li><a href="projects.html">المشاريع</a></li>
+            <li><a href="articles.html">المقالات</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+            <li><a href="en/index.html">English</a></li>
+          </ul>
+          <a class="home-header-cta" href="contact.html">اطلب استشارة هندسية</a>
         </div>
+      </nav>
     </div>
-</section>
+  </header>
 
-<!-- Stats Section -->
-<section class="stats">
-    <div class="container">
-        <div class="stats-grid">
-            <div class="stat-card fade-in"><div class="stat-number">01</div><div class="stat-label">موقع موحد للمحتوى المراجع</div></div>
-            <div class="stat-card fade-in"><div class="stat-number">AR</div><div class="stat-label">واجهة عربية RTL</div></div>
-            <div class="stat-card fade-in"><div class="stat-number">EN</div><div class="stat-label">واجهة إنجليزية LTR</div></div>
-            <div class="stat-card fade-in"><div class="stat-number">0</div><div class="stat-label">قنوات تسليم خارجية مفعلة</div></div>
+  <main>
+    <section class="home-hero" aria-labelledby="hero-title">
+      <div class="container home-hero-grid">
+        <div class="home-hero-copy">
+          <span class="home-eyebrow">AL-SERAJ / INDUSTRIAL SOLUTIONS</span>
+          <h1 id="hero-title">حلول هندسية صناعية متكاملة</h1>
+          <p class="home-hero-lead">من التصميم الهندسي إلى التوريد والتنفيذ والتشغيل، نقدم حلولًا متكاملة للمصانع الدوائية والمنشآت الصناعية وفق متطلبات المشروع والمعايير المعتمدة.</p>
+          <div class="home-hero-actions">
+            <a class="home-button home-button-primary" href="contact.html">اطلب استشارة هندسية</a>
+            <a class="home-button home-button-secondary" href="#services">استكشف خدماتنا</a>
+            <a class="home-button home-button-whatsapp btn-whatsapp whatsapp-link" href="https://wa.me/967777603050?text=Hello%20Al-Seraj%20Industrial%20Solutions%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20industrial%20and%20pharmaceutical%20solutions.%20Please%20assist%20me." target="_blank" rel="noopener noreferrer">تواصل معنا عبر واتساب</a>
+          </div>
+          <div class="home-hero-note" aria-label="نطاقات العمل">
+            <span>المصانع الدوائية</span><span>المنشآت الصناعية</span><span>الهندسة والتنفيذ</span>
+          </div>
         </div>
-    </div>
-</section>
-
-<!-- Services Section -->
-<section class="services" id="services">
-    <div class="container">
-        <h2 class="section-title">خدماتنا الأساسية</h2>
-        <p class="section-subtitle">نقدم حلولاً متكاملة تجمع بين الابتكار والالتزام الصارم بالمعايير الدولية</p>
-
-        <div class="services-grid">
-            <div class="service-card fade-in">
-                <div class="service-icon">📐</div>
-                <h3>التصميم المفاهيمي</h3>
-                <p>خطط ومخططات شاملة لمصانع الأدوية تتوافق مع المعايير الدولية والمتطلبات التنظيمية.</p>
-            </div>
-            <div class="service-card fade-in">
-                <div class="service-icon">🏗️</div>
-                <h3>التصميم التفصيلي</h3>
-                <p>تصاميم هندسية دقيقة للأنظمة الكهربائية والميكانيكية والمدنية باستخدام أحدث البرامج.</p>
-            </div>
-            <div class="service-card fade-in">
-                <div class="service-icon">⚡</div>
-                <h3>اللوحات الكهربائية</h3>
-                <p>تصنيع وتجميع لوحات كهربائية احترافية بأعلى معايير الجودة والأمان.</p>
-            </div>
-            <div class="service-card fade-in">
-                <div class="service-icon">❄️</div>
-                <h3>أنظمة التهوية HVAC</h3>
-                <p>تصميم وتركيب أنظمة تهوية متقدمة تضمن بيئة عمل آمنة وصحية.</p>
-            </div>
-            <div class="service-card fade-in">
-                <div class="service-icon">💧</div>
-                <h3>معالجة المياه</h3>
-                <p>حلول متقدمة لمعالجة المياه والهواء المضغوط وفقاً لمعايير GMP.</p>
-            </div>
-            <div class="service-card fade-in">
-                <div class="service-icon">🎓</div>
-                <h3>الاستشارات الهندسية</h3>
-                <p>استشارات متخصصة من خبراء لتحسين العمليات الإنتاجية والكفاءة.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Specializations Section -->
-<section class="specializations" id="specializations">
-    <div class="container">
-        <h2 class="section-title" style="color: white;">مجالات التخصص</h2>
-
-        <div class="spec-grid">
-            <div class="spec-item">
-                <strong>التصميم الهندسي</strong>
-                CAD, BIM, AutoCAD
-            </div>
-            <div class="spec-item">
-                <strong>معايير الصيدلة</strong>
-                GMP, GDP, ISO 14644
-            </div>
-            <div class="spec-item">
-                <strong>الأنظمة الكهربائية</strong>
-                PLC, SCADA, Automation
-            </div>
-            <div class="spec-item">
-                <strong>أنظمة التهوية</strong>
-                HVAC Design, Clean Room
-            </div>
-            <div class="spec-item">
-                <strong>معالجة المياه</strong>
-                Purified Water, WFI Systems
-            </div>
-            <div class="spec-item">
-                <strong>الجودة والأمان</strong>
-                ISO 9001, OHSAS 18001
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section class="contact" id="contact">
-    <div class="container">
-        <h2 class="section-title">تواصل معنا</h2>
-
-        <div class="contact-content">
-            <div class="contact-info">
-                <h3>معلومات التواصل</h3>
-
-                <div class="contact-item"><div class="contact-icon">ℹ️</div><div><strong>حالة التواصل:</strong><br>النموذج الأمامي للمراجعة المحلية فقط.</div></div>
-
-
-
-                <div class="contact-item">
-                    <div class="contact-icon">🌐</div>
-                    <div>
-                        <strong>الموقع الرسمي:</strong><br>
-                        <a href="https://sci5a.github.io/al-seraj/" target="_blank" style="color: var(--primary);">sci5a.github.io/al-seraj/</a>
-                    </div>
+        <div class="home-hero-visual" role="img" aria-label="تصوير بصري للمسارات الهندسية وحلول المصانع">
+          <div class="home-visual-window">
+            <div class="home-visual-topbar"><span>ENGINEERING SYSTEM</span><span class="home-visual-status">PROJECT READY</span></div>
+            <div class="home-visual-body">
+              <div class="home-visual-grid" aria-hidden="true"></div>
+              <div class="home-visual-schematic">
+                <div class="home-visual-brand"><img src="images/logo.jpg" alt="" width="48" height="48"><span><strong>AL-SERAJ</strong><small>Industrial Solutions</small></span></div>
+                <div class="home-visual-line"><span class="home-visual-chip">هندسة وتصميم</span></div>
+                <div class="home-visual-line"><span class="home-visual-chip">HVAC / Cleanrooms</span></div>
+                <div class="home-visual-line"><span class="home-visual-chip">تجهيز وتنفيذ</span></div>
+                <div class="home-visual-panels">
+                  <div class="home-visual-panel"><strong>01</strong><span>Design</span></div>
+                  <div class="home-visual-panel"><strong>02</strong><span>Supply</span></div>
+                  <div class="home-visual-panel"><strong>03</strong><span>Commissioning</span></div>
                 </div>
-
-
+              </div>
             </div>
-
-            <form class="contact-form" onsubmit="handleSubmit(event)">
-                <div class="form-group">
-                    <label for="name">الاسم الكامل</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">البريد الإلكتروني</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">رقم الهاتف</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">الرسالة</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">مراجعة الاستفسار محليًا</button>
-                <p id="homepage-form-status" role="status" aria-live="polite" style="margin-top: 12px; color: var(--primary); font-weight: 700;"></p>
-            </form>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>عن السراج</h4>
-                <p>شركة متخصصة في تجهيز وتصميم مصانع الأدوية بأحدث التقنيات والمعايير الدولية.</p>
-            </div>
-
-            <div class="footer-section">
-                <h4>الخدمات</h4>
-                <ul>
-                    <li><a href="services.html">صفحات الخدمات</a></li>
-                    <li><a href="solutions.html">الحلول</a></li>
-                    <li><a href="articles.html">المقالات</a></li>
-                    <li><a href="#services">التصميم المفاهيمي</a></li>
-                    <li><a href="#services">اللوحات الكهربائية</a></li>
-                    <li><a href="#services">أنظمة التهوية</a></li>
-                    <li><a href="#services">معالجة المياه</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h4>المحتوى التجاري</h4>
-                <ul>
-                    <li>لا تُنشر شراكات أو وكالات تجارية دون ملف أدلة معتمد.</li>
-                    <li>تحتاج بيانات المشاريع والنتائج إلى مراجعة مالك المحتوى.</li>
-                    <li>النطاق المنشور يصف مجالات هندسية عامة فقط.</li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h4>التواصل</h4>
-                <ul>
-                    <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
-                    <li><a href="contact.html">صفحة التواصل</a></li>
-                    <li><a class="whatsapp-link" href="https://wa.me/967777603050?text=Hello%20Al-Seraj%20Industrial%20Solutions%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20industrial%20and%20pharmaceutical%20solutions.%20Please%20assist%20me." target="_blank" rel="noopener noreferrer">تواصل معنا عبر واتساب</a></li>
-                    <li>قناة التسليم غير مهيأة — قناة التسليم غير مهيأة</li>
-                    <li><a href="https://sci5a.github.io/al-seraj/" target="_blank">sci5a.github.io/al-seraj/</a></li>
-                </ul>
-            </div>
+    <section class="home-section home-section-soft" aria-labelledby="capabilities-title">
+      <div class="container">
+        <div class="home-section-heading centered"><span class="home-kicker">CAPABILITIES</span><h2 id="capabilities-title">من التخطيط إلى الجاهزية</h2><p>مسار هندسي منظم يربط مراحل المشروع الأساسية ضمن نطاق العمل والوثائق المعتمدة.</p></div>
+        <div class="home-capability-grid">
+          <article class="home-capability-card"><span class="home-capability-index">01</span><h3>الهندسة والتصميم</h3><p>مخططات وحلول هندسية تبدأ من متطلبات المشروع.</p></article>
+          <article class="home-capability-card"><span class="home-capability-index">02</span><h3>التجهيز والتوريد</h3><p>تنسيق التجهيزات والمواصفات ضمن نطاق التوريد المعتمد.</p></article>
+          <article class="home-capability-card"><span class="home-capability-index">03</span><h3>التركيب والتنفيذ</h3><p>تنظيم الأعمال التنفيذية وفق واجهات المشروع.</p></article>
+          <article class="home-capability-card"><span class="home-capability-index">04</span><h3>الاختبار والتشغيل</h3><p>مراجعة الجاهزية وخطوات التشغيل قبل التسليم.</p></article>
         </div>
+      </div>
+    </section>
 
-        <div class="footer-bottom">
-            <p>&copy; 2026 السراج لتجهيزات مصانع الأدوية. جميع الحقوق محفوظة.</p>
-            <p>تطوير وتصميم: <a href="https://github.com/SCI5A" target="_blank" style="color: var(--accent);">SCI5A</a></p>
+    <section class="home-section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="home-section-heading"><span class="home-kicker">ENGINEERING SERVICES</span><h2 id="services-title">خدماتنا الهندسية</h2><p>مجموعة خدمات مترابطة تغطي التصميم والاستشارات والتجهيز والسلامة والدعم الفني ضمن المحتوى المعتمد.</p></div>
+        <div class="home-service-grid">
+          <a class="home-service-card" href="service-engineering-design.html"><span class="home-card-index">01</span><h3>التصميم والاستشارات الهندسية</h3><p>تطوير المتطلبات والمخططات وواجهات التصميم بحسب نطاق المشروع.</p><span class="home-card-link">اعرف المزيد</span></a>
+          <a class="home-service-card" href="service-pharma-setup.html"><span class="home-card-index">02</span><h3>تجهيز المصانع الدوائية</h3><p>تنسيق حلول التجهيز للمرافق الدوائية ضمن مسار مفتاح باليد.</p><span class="home-card-link">اعرف المزيد</span></a>
+          <a class="home-service-card" href="service-safety-systems.html"><span class="home-card-index">03</span><h3>أنظمة الإنذار والسلامة</h3><p>حلول لمراجعة متطلبات السلامة وحماية المنشآت الصناعية.</p><span class="home-card-link">اعرف المزيد</span></a>
+          <a class="home-service-card" href="service-maintenance.html"><span class="home-card-index">04</span><h3>الصيانة والمراجعة الفنية</h3><p>مراجعة فنية ودعم منظم للمعدات والأنظمة ضمن نطاق العمل.</p><span class="home-card-link">اعرف المزيد</span></a>
+          <a class="home-service-card" href="service-consulting.html"><span class="home-card-index">05</span><h3>مراجعة GMP وISO</h3><p>دعم تحضيري لمراجعة المتطلبات والوثائق دون ادعاء شهادة أو اعتماد.</p><span class="home-card-link">اعرف المزيد</span></a>
+          <a class="home-service-card" href="service-training.html"><span class="home-card-index">06</span><h3>التدريب والتأهيل الفني</h3><p>تنظيم المعرفة التشغيلية وخطوات التأهيل بحسب احتياج المشروع.</p><span class="home-card-link">اعرف المزيد</span></a>
+          <a class="home-service-card" href="solution-industrial-automation.html"><span class="home-card-index">07</span><h3>الأتمتة والتحكم</h3><p>استكشف حلول الأتمتة والأنظمة الكهربائية ضمن صفحات الحلول المتخصصة.</p><span class="home-card-link">استكشف الحلول</span></a>
+          <a class="home-service-card" href="solutions.html"><span class="home-card-index">08</span><h3>التجهيزات الصناعية</h3><p>حلول ومعدات صناعية مرتبطة بمتطلبات المرفق ومسار التنفيذ.</p><span class="home-card-link">استكشف الحلول</span></a>
         </div>
-    </div>
-</footer>
+      </div>
+    </section>
 
-<script>
-    // Smooth scroll for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
-    });
+    <section class="home-section home-section-blue" aria-labelledby="process-title">
+      <div class="container">
+        <div class="home-section-heading centered"><span class="home-kicker">TURNKEY WORKFLOW</span><h2 id="process-title">من الفكرة إلى التشغيل</h2><p>خطوات واضحة تساعد على تنظيم القرارات والواجهات الفنية عبر دورة المشروع.</p></div>
+        <div class="home-process">
+          <div class="home-process-step"><strong>01</strong><span>دراسة المتطلبات</span><small>Requirements &amp; Assessment</small></div>
+          <div class="home-process-step"><strong>02</strong><span>التصميم الهندسي</span><small>Engineering Design</small></div>
+          <div class="home-process-step"><strong>03</strong><span>التوريد والتجهيز</span><small>Procurement &amp; Supply</small></div>
+          <div class="home-process-step"><strong>04</strong><span>التركيب والتنفيذ</span><small>Installation &amp; Execution</small></div>
+          <div class="home-process-step"><strong>05</strong><span>الاختبار والتشغيل</span><small>Testing &amp; Commissioning</small></div>
+        </div>
+      </div>
+    </section>
 
-    // Form submission handler
-    function handleSubmit(event) {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-        const data = Object.fromEntries(formData);
+    <section class="home-section" aria-labelledby="solutions-title">
+      <div class="container">
+        <div class="home-section-heading"><span class="home-kicker">SPECIALIZED SOLUTIONS</span><h2 id="solutions-title">حلولنا المتخصصة</h2><p>مسارات متخصصة يمكن استكشاف تفاصيلها ضمن صفحات الحلول الحالية.</p></div>
+        <div class="home-solution-grid">
+          <a class="home-solution-card" href="solution-pharmaceutical-facilities.html"><h3>المنشآت الدوائية</h3><p>حلول للمرافق الدوائية ومتطلبات تجهيزها.</p><span class="home-solution-link">عرض الحل</span></a>
+          <a class="home-solution-card" href="solution-cleanrooms.html"><h3>الغرف النظيفة</h3><p>مفاهيم وتنسيق متطلبات البيئات النظيفة.</p><span class="home-solution-link">عرض الحل</span></a>
+          <a class="home-solution-card" href="solution-hvac-systems.html"><h3>أنظمة HVAC</h3><p>أنظمة التكييف والتهوية للمرافق الصناعية.</p><span class="home-solution-link">عرض الحل</span></a>
+          <a class="home-solution-card" href="solution-electrical-engineering.html"><h3>الهندسة الكهربائية</h3><p>حلول الأنظمة الكهربائية وواجهات التشغيل.</p><span class="home-solution-link">عرض الحل</span></a>
+          <a class="home-solution-card" href="solution-industrial-automation.html"><h3>الأتمتة الصناعية</h3><p>حلول التحكم والأتمتة ضمن متطلبات المشروع.</p><span class="home-solution-link">عرض الحل</span></a>
+          <a class="home-solution-card" href="solution-industrial-equipment.html"><h3>التجهيزات الصناعية</h3><p>معدات وتجهيزات مرتبطة بنطاق المرفق والتنفيذ.</p><span class="home-solution-link">عرض الحل</span></a>
+        </div>
+      </div>
+    </section>
 
-        const status = document.getElementById('homepage-form-status');
-        if (!event.target.checkValidity()) {
-            event.target.reportValidity();
-            status.textContent = 'يرجى استكمال الحقول المطلوبة.';
-            return;
-        }
-        status.textContent = 'تمت مراجعة الحقول محليًا فقط. لم يتم إرسال أو تخزين أي بيانات.';
-        event.target.reset();
+    <section class="home-section home-section-soft" aria-labelledby="industries-title">
+      <div class="container">
+        <div class="home-section-heading centered"><span class="home-kicker">INDUSTRIES WE SERVE</span><h2 id="industries-title">القطاعات التي نخدمها</h2><p>نطاقات صناعية وهندسية عامة كما تظهر في المحتوى الحالي، دون أرقام أو إحصاءات غير موثقة.</p></div>
+        <div class="home-industry-grid">
+          <article class="home-industry-card"><h3>المرافق الدوائية</h3><p>تجهيز وتصميم مساحات ومرافق مرتبطة بالإنتاج الدوائي.</p></article>
+          <article class="home-industry-card"><h3>المنشآت الصناعية</h3><p>حلول هندسية وتجهيزات للمرافق والأنظمة الصناعية.</p></article>
+          <article class="home-industry-card"><h3>الأنظمة الهندسية</h3><p>تكامل التهوية والكهرباء والتحكم ضمن احتياج المشروع.</p></article>
+        </div>
+        <div class="home-hero-actions" style="margin-top:1.5rem"><a class="home-button home-button-secondary" href="industries.html" style="border-color:var(--home-blue-700);color:var(--home-blue-700);background:transparent">استكشف القطاعات</a></div>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="why-title">
+      <div class="container">
+        <div class="home-section-heading centered"><span class="home-kicker">WHY AL-SERAJ</span><h2 id="why-title">لماذا السراج؟</h2><p>قيمة هندسية واضحة دون ادعاءات اعتماد أو شراكات غير موثقة.</p></div>
+        <div class="home-why-grid">
+          <article class="home-why-card"><h3>حلول متكاملة</h3><p>ربط مراحل التصميم والتجهيز والتنفيذ ضمن صورة واحدة.</p></article>
+          <article class="home-why-card"><h3>هندسة متخصصة</h3><p>محتوى وخدمات تركز على الأنظمة والمرافق الصناعية.</p></article>
+          <article class="home-why-card"><h3>تنفيذ منظم</h3><p>مسار عمل يوضح المتطلبات والواجهات قبل التشغيل.</p></article>
+          <article class="home-why-card"><h3>دعم فني</h3><p>مراجعة فنية وتأهيل وتشغيل بحسب نطاق المشروع.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-section-soft" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="home-project-panel">
+          <div><span class="home-kicker">PROJECTS</span><h3 id="projects-title">مشاريعنا تبدأ من متطلبات واضحة</h3><p>استعرض صفحة المشاريع والمحتوى المنشور، مع بقاء بيانات المشاريع والنتائج خاضعة لمراجعة المالك قبل اعتماد أي claim تجاري.</p></div>
+          <a class="home-button home-button-primary" href="projects.html">عرض المشاريع</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="articles-title">
+      <div class="container">
+        <div class="home-section-heading"><span class="home-kicker">ENGINEERING INSIGHTS</span><h2 id="articles-title">المقالات والرؤى الهندسية</h2><p>قراءات مختارة من المحتوى الهندسي المنشور.</p></div>
+        <div class="home-article-grid">
+          <a class="home-article-card" href="article-gmp-standards.html"><h3>أهمية معايير التصنيع الجيد GMP في المنشآت الدوائية</h3><p>قراءة تمهيدية حول مراجعة المتطلبات والوثائق ذات الصلة.</p><span class="home-card-link">اقرأ المزيد</span></a>
+          <a class="home-article-card" href="article-fire-safety.html"><h3>أنظمة إنذار الحريق وحماية المنشآت</h3><p>مفاهيم عامة حول السلامة ومراجعة متطلبات حماية المنشآت.</p><span class="home-card-link">اقرأ المزيد</span></a>
+          <a class="home-article-card" href="article-turnkey-projects.html"><h3>مشاريع المصانع المتكاملة: إطار تنسيقي</h3><p>نظرة على تنسيق مراحل المشروع من المتطلبات إلى التشغيل.</p><span class="home-card-link">اقرأ المزيد</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-contact" id="contact" aria-labelledby="contact-title">
+      <div class="container home-contact-grid">
+        <div class="home-contact-info"><span class="home-kicker">CONTACT</span><h2 id="contact-title">اطلب استشارة هندسية</h2><p>شاركنا فكرة مشروعك أو متطلبات منشأتك، وسنراجع الحقول محليًا فقط ضمن النموذج الحالي.</p><div class="home-contact-points"><div class="home-contact-point"><span aria-hidden="true">01</span><div><strong>نطاق هندسي واضح</strong>من التصميم إلى التشغيل بحسب المشروع.</div></div><div class="home-contact-point"><span aria-hidden="true">02</span><div><strong>قناة واتساب مباشرة</strong><a class="whatsapp-link" href="https://wa.me/967777603050?text=Hello%20Al-Seraj%20Industrial%20Solutions%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20industrial%20and%20pharmaceutical%20solutions.%20Please%20assist%20me." target="_blank" rel="noopener noreferrer">تواصل معنا عبر واتساب</a></div></div></div></div>
+        <form class="home-contact-form" onsubmit="handleHomeSubmit(event)">
+          <div class="home-form-grid">
+            <div class="home-form-group"><label for="home-name">الاسم الكامل</label><input id="home-name" name="name" type="text" required></div>
+            <div class="home-form-group"><label for="home-email">البريد الإلكتروني</label><input id="home-email" name="email" type="email" required></div>
+            <div class="home-form-group"><label for="home-phone">رقم الهاتف</label><input id="home-phone" name="phone" type="tel" required></div>
+            <div class="home-form-group full"><label for="home-message">متطلبات المشروع</label><textarea id="home-message" name="message" required></textarea></div>
+          </div>
+          <button class="home-button home-button-primary" type="submit" style="width:100%;margin-top:1rem">مراجعة الاستفسار محليًا</button>
+          <p class="home-form-status" id="homepage-form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="home-section home-final-cta" aria-labelledby="final-cta-title">
+      <div class="container home-final-cta-inner"><div><h2 id="final-cta-title">هل لديك مشروع صناعي أو دوائي؟</h2><p>دعنا نناقش متطلبات مشروعك ونحدد الحل الهندسي المناسب.</p></div><div class="home-final-cta-actions"><a class="home-button home-button-primary" href="contact.html">اطلب استشارة هندسية</a><a class="home-button home-button-whatsapp btn-whatsapp whatsapp-link" href="https://wa.me/967777603050?text=Hello%20Al-Seraj%20Industrial%20Solutions%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20industrial%20and%20pharmaceutical%20solutions.%20Please%20assist%20me." target="_blank" rel="noopener noreferrer">تواصل معنا عبر واتساب</a></div></div>
+    </section>
+  </main>
+
+  <footer class="home-footer">
+    <div class="container home-footer-grid"><div><h3>السراج</h3><p>حلول هندسية صناعية متكاملة للمصانع الدوائية والمنشآت الصناعية وفق متطلبات المشروع والمعايير المعتمدة.</p></div><div><h3>روابط سريعة</h3><ul><li><a href="about.html">من نحن</a></li><li><a href="services.html">الخدمات</a></li><li><a href="solutions.html">الحلول</a></li><li><a href="projects.html">المشاريع</a></li></ul></div><div><h3>التواصل</h3><ul><li><a href="contact.html">صفحة التواصل</a></li><li><a href="privacy-policy.html">سياسة الخصوصية</a></li><li><a class="whatsapp-link" href="https://wa.me/967777603050?text=Hello%20Al-Seraj%20Industrial%20Solutions%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20industrial%20and%20pharmaceutical%20solutions.%20Please%20assist%20me." target="_blank" rel="noopener noreferrer">تواصل معنا عبر واتساب</a></li></ul></div></div>
+    <div class="home-footer-bottom"><div class="container">© 2026 السراج للحلول الهندسية الصناعية. جميع الحقوق محفوظة.</div></div>
+  </footer>
+
+  <script>
+    function handleHomeSubmit(event) {
+      event.preventDefault();
+      var form = event.target;
+      var status = document.getElementById('homepage-form-status');
+      if (!form.checkValidity()) { form.reportValidity(); status.textContent = 'يرجى استكمال الحقول المطلوبة.'; return; }
+      status.textContent = 'تمت مراجعة الحقول محليًا فقط. لم يتم إرسال أو تخزين أي بيانات.';
+      form.reset();
     }
-
-    // Add fade-in animation on scroll
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -100px 0px'
-    };
-
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-
-    document.querySelectorAll('.service-card, .stat-card, .spec-item').forEach(el => {
-        observer.observe(el);
+    document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+      anchor.addEventListener('click', function (event) { var target = document.querySelector(this.getAttribute('href')); if (target) { event.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); } });
     });
-</script>
-
+  </script>
 </body>
 </html>
